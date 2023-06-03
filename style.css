@@ -1,4 +1,39 @@
 body {
-    background-color: grey;
+    background-color: #232323;
     color: white;
+}
+.repos-container {
+    width: 800px;
+    background-color: #F6F6F6F6;
+    margin: auto;
+}
+.repos-container .get-repos {
+    padding: 20px;
+    display: flex;
+    background-color: #EEE;
+}
+.repos-container .get-repos input {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+    height: 54px;
+}
+.repos-container .get-repos input:focus {
+
+}
+.repos-container .get-repos .get-button {
+    width: 140px;
+    margin-left: 10px;
+    height: 54px;
+    background-color: #F44336;
+    color: #FFF;
+    line-height: 54px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.repos-container .show-data {
+    padding: 20px;
+    background-color: #1088ec;
 }
